@@ -7,12 +7,19 @@ a{
 
     :hover{background-color:yellow; }
 
-h1{background-color:#282828;
-    color: white;
+.header{background-color:#282828;
+        height: 80px;
+        }
+img{float: center;
+    height: 60px;}
+
+h1{color: white;
     font-size: 18px;
     padding: 10px 200px 10px;
     margin: 0px;
-    font-style: normal}
+    font-style: normal;
+    display: inline;
+    }
 
 .box1{height: 300px;
     background-color: #949381;
@@ -39,7 +46,9 @@ border:0px;}
 background-color:#282828;}
 
 .box1 ul{
-    list-style: none;padding: 10px 150px 10px; margin: 0px;
+    list-style: none;
+    padding: 10px 200px 10px; 
+    margin: 0px;
 }
 .first{color:white;}
 .box1 li:nth-child(1){font-size: 35px;color:white;
@@ -49,16 +58,25 @@ background-color:#282828;}
 .head2{display: inline-block;font-size: 24px;}
 .head3{float: left;padding: 10px 0px 0px 0px;}
 section {background-color: #efefef;
-        padding: 50px 200px;
+        padding: 50px 50px;
+        height: 1000px;
         }
 
 .artical {background-color: white;
           padding: 10px;
           list-style-type: none;
           margin: 10px;
-        width:33.3%;
+        width:30%;
         box-sizing: border-box;
+        float:right;
+        border-radius: 20px;
         }
-h3{background-color: #d0eae9;}
+h3{background-color: #d0eae9;
+    border-radius: 20px;
+    padding: 20px 20px;}
+.map{background-color: #dcdcdc;
+    height: 300px;
+    border-top:2px #cccccc solid;}
+
 
    
